@@ -1,5 +1,3 @@
-// import React, { useState } from 'react';
-
 function DiceScore(props) {
   const handleClickRoll = () => {
     // const newDiceScore = Math.floor(Math.random() * 6 + 1);

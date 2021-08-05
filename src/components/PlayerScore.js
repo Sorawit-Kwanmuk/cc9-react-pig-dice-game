@@ -6,5 +6,4 @@ function PlayerScore(props) {
     </div>
   );
 }
-
 export default PlayerScore;
