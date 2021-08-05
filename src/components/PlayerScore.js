@@ -1,13 +1,8 @@
 function PlayerScore(props) {
-  let classes = 'card';
-  if (props.active) {
-    classes += ' active'; // 'card active'
-  }
-
   return (
-    <div className={classes}>
+    <div className={`card${props.active === true ? ' active' : ''}`}>
       <h1>Player {props.name}</h1>
-      <p className="player-score">0</p>
+      <p className='player-score'>{props.score}</p>
     </div>
   );
 }
